@@ -1,0 +1,66 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      display: flex;
+      justify-content: center; /* Centers content horizontally */
+      align-items: center; /* Centers content vertically */
+      height: 100vh; /* Takes full viewport height */
+  }
+  
+  .container {
+      width: 100%;
+      max-width: 400px; /* Restrict the form width */
+      margin: 20px;
+      padding: 20px;
+      background-color: #ffffff;
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mb-3 {
+      margin-bottom: 1rem;
+  }
+  
+  .form-control {
+      width: 100%; /* Ensure inputs are responsive inside container */
+
+      border: 1px solid #ced4da;
+      border-radius: 4px;
+      display: block; /* Ensures block layout */
+      box-sizing: border-box; /* Make sure padding doesn't overflow input */
+  }
+
+  
+  label {
+      font-weight: bold;
+  }
+  
+  button {
+      width: 100%; /* Full width for the button */
+      padding: 10px;
+      background-color: #007bff;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background-color: #0056b3;
+  }
+  
+  
